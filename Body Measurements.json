@@ -1,0 +1,60 @@
+{
+  "id": "c0db7718-8d8c-4323-9537-530111d9f44f",
+  "name": "Body Measurements",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "HandleBodyMeasurements",
+      "affectedContexts": [
+        {
+          "name": "BodyMeasurements-followup",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Ok, would you like your BMI, Ideal Body Fat Percentage, or Target Heart Rate?"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "cortanaCommand": {
+    "navigateOrService": "NAVIGATE",
+    "target": ""
+  },
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1551328683,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "GOOGLE_ASSISTANT_WELCOME"
+    }
+  ],
+  "userSays": [
+    {
+      "id": "332648c3-81be-49c3-8e23-67ac075b7587",
+      "data": [
+        {
+          "text": "What are my body measurements?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1551120845,
+      "isAuto": false
+    }
+  ],
+  "followUpIntents": [],
+  "liveAgentHandoff": false,
+  "endInteraction": false,
+  "templates": []
+}
